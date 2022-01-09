@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("DevToken");
+const DevToken = artifacts.require("DevsBucks");
 
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(DevToken,1000000,"DevsBucks",7,"DBK",);
 };
